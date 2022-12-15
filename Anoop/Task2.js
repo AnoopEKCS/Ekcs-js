@@ -10,9 +10,17 @@
 // }
 
 
-var user = prompt("Please enter your Name"); //Here I am facing case senstivity prob
-if(user[0].toLocaleUpperCase() == "A"){
-    alert("First letter of your name is A");
-}else{
-    alert("First letter of your name is not A")
-}
+// var user = prompt("Please enter your Name"); //Here I am facing case senstivity prob
+// if(user[0].toLocaleUpperCase() == "A"){
+//     alert("First letter of your name is A");
+// }else{
+//     alert("First letter of your name is not A")
+// }
+
+
+
+var names = ["Anoop", "Suheer", "Rahul"];
+//var all = names.length;
+for (var i = 0; i < names.length; i++)
+console.log(names[i]);
+
