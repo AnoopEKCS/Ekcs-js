@@ -19,8 +19,20 @@
 
 
 
-var names = ["Anoop", "Suheer", "Rahul"];
-//var all = names.length;
-for (var i = 0; i < names.length; i++)
-console.log(names[i]);
+// var names = ["Anoop", "Suheer", "Rahul"];
+// //var all = names.length;
+// for (var i = 0; i < names.length; i++)
+// console.log(names[i]);
 
+
+var names = [];   
+sum = 0;
+for (var i = 0; i < 3; i++) {  
+  // names.push(prompt('Enter Name' + (i+1))) 
+  var inp = parseInt(prompt('Enter Numbers' + (i+1)))
+  names.push(inp);
+  sum += inp;
+  console.log(sum); 
+}
+
+//console.log(sum); 
