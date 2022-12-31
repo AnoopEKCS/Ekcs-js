@@ -9,17 +9,23 @@ function allCap(){
 }
 
 function allLow(){
-    var text = document.getElementById("text"); // textarea
-    
-    var inputValue = text.value; // textarea.value
+    var text = document.getElementById("text");
 
-    var lower = inputValue.toLowerCase(); // Lower CASE
+    var inputValue = text.value;
 
-    text.value = lower // Lower CASE
+    var lower = inputValue.toLowerCase();
+
+    text.value = lower;
 }
 
-
 function copy(){
-    var text = document.getElementById("text").value; // textarea
+    var text = document.getElementById("text").value
     navigator.clipboard.writeText(text)
+}
+
+function firstChar(){
+    var text = document.getElementById("text")
+    var inputValue = text.value
+    var space = inputValue.split(" ");
+    console.log(space);
 }
